@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-image: url("https://www.akronzoo.org/sites/default/files/styles/square_large/public/assets/animals/Tiger-main.png?h=00546c34&itok=0LXXy7LI");
+    margin-top: 90px;
+    margin: auto;
+    margin-top: 90px;
+    box-shadow:40px 40px 40px  blueviolet;
+    box-shadow:40px -40px 40px  blueviolet;
+    box-shadow:-40px 40px 40px  blueviolet;
+    /*background: linear-gradient(blue,orange,red);
+    background: radial-gradient(blue,orange,red);*/
+    transition-duration: 3s;
+    /*transform: rotateX(45deg);*/
+}
+.sathi{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    padding-top: 20px
+    ;
+    color: aliceblue;
+}
+.container:hover{
+    height: 500px;
+    width: 500px;
+    
+    margin-top: 90px;
+    margin: auto;
+    margin-top: 90px;
+    box-shadow:40px 40px 40px  blueviolet;
+    box-shadow:40px -40px 40px  blueviolet;
+    box-shadow:-40px 40px 40px  blueviolet;
+   /* background: linear-gradient(blue,orange,red,pink,lavender,purple,);
+    background: radial-gradient(red,green,white,gold,lavender);*/
+    transition-duration: 3s;
+    background-image: url("https://stat4.bollywoodhungama.in/wp-content/uploads/2022/10/Mahesh-Babu.jpg");
+    /*transform: rotateX(90deg);*/
+}
